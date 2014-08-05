@@ -1,0 +1,7 @@
+<snippet>
+	<description>Write Out</description>
+	<content><![CDATA[freopen ("${2:${1:x}.out}", "w", stdout);]]>
+</content>
+	<tabTrigger>write</tabTrigger>
+	<scope>source.c++, source.objc++</scope>
+</snippet>

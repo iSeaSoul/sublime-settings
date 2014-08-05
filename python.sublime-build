@@ -1,0 +1,7 @@
+{
+    "cmd": ["start", "launch", "${file_name}", "python -u"],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "working_dir": "${file_path}",
+    "selector": "source.python",
+    "shell": true
+}

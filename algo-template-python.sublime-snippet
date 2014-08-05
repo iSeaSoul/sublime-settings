@@ -1,0 +1,8 @@
+<snippet>
+	<description>Python Algo</description>
+	<content><![CDATA[read = lambda: map(int, raw_input().split())
+${1:# code...}]]>
+</content>
+	<tabTrigger>pyalgotemp</tabTrigger>
+	<scope>source.python</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<description>Function</description>
+	<content><![CDATA[${1:int} ${2:func}(${3}) {
+	${4:// code...}
+}]]>
+</content>
+	<tabTrigger>func</tabTrigger>
+	<scope>source.c++, source.objc++</scope>
+</snippet>
