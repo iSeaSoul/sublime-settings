@@ -1,7 +1,29 @@
 <snippet>
 	<description>Python Algo</description>
 	<content><![CDATA[read = lambda: map(int, raw_input().split())
-${1:# code...}]]>
+
+f = open('..\\${1:NAME}.out', 'w+')
+
+def my_print(s):
+	try:
+		f.write(s + '\n')
+	except:
+		print s
+
+for Case in xrange(input()):
+	# indicator...
+	print 'solving case %d...' % (Case + 1, )
+
+	# input...
+	${2:input here...}
+
+	# solve...
+	my_print('Case #%d: ' % (Case + 1, ${3:res here...}))
+
+try:
+	f.close()
+except:
+	pass]]>
 </content>
 	<tabTrigger>pyalgotemp</tabTrigger>
 	<scope>source.python</scope>
