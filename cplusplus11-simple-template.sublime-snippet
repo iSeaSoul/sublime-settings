@@ -1,0 +1,19 @@
+<snippet>
+	<description>C++ Simple Template</description>
+	<content><![CDATA[/*
+ * Not the fish.
+ * ${1:INFO}
+ */
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+	${2:// code...}
+	return 0;
+}]]>
+</content>
+	<tabTrigger>csim</tabTrigger>
+	<scope>source.c++, source.objc++</scope>
+</snippet>
