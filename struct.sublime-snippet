@@ -1,0 +1,9 @@
+<snippet>
+	<description>Struct</description>
+	<content><![CDATA[struct ${1:NAME} {
+	${2:// code...}
+};]]>
+</content>
+	<tabTrigger>struct</tabTrigger>
+	<scope>source.c++, source.objc++</scope>
+</snippet>

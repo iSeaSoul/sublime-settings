@@ -1,0 +1,7 @@
+<snippet>
+	<description>Read Array</description>
+	<content><![CDATA[for_each (${1:arr}, ${1} + ${2:n}, [](int& x) {scanf ("%d", &x);});]]>
+</content>
+	<tabTrigger>readarray</tabTrigger>
+	<scope>source.c++, source.objc++</scope>
+</snippet>

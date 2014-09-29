@@ -1,28 +1,6 @@
 <snippet>
-	<description>Algo Template</description>
-	<content><![CDATA[/*
- * Not the fish.
- * ${1:INFO}
- */
-
-#include <cmath>
-#include <ctime>
-#include <cstdio>
-#include <cstring>
-#include <iostream>
-#include <algorithm>
-#include <fstream>
-#include <sstream>
-#include <vector>
-#include <string>
-#include <bitset>
-#include <queue>
-#include <map>
-#include <set>
-
-using namespace std;
-
-// Self Template Code BGEIN
+	<description>Self Template</description>
+	<content><![CDATA[// Self Template Code BGEIN
 
 #define sz(x) ((int)((x).size()))
 #define out(x) printf(#x" %d\n", x)
@@ -42,12 +20,8 @@ template<class T> inline void ckmin(T &a, const T b) { if (b < a) a = b; }
 template<class T> inline void ckmax(T &a, const T b) { if (b > a) a = b; }
 
 // Self Template Code END
-
-int main() {
-	${2:// code...}
-	return 0;
-}]]>
+]]>
 </content>
-	<tabTrigger>algotemp</tabTrigger>
+	<tabTrigger>ctemp</tabTrigger>
 	<scope>source.c++, source.objc++</scope>
 </snippet>

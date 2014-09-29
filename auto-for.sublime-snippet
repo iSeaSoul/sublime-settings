@@ -1,0 +1,9 @@
+<snippet>
+	<description>Auto For</description>
+	<content><![CDATA[for (const auto& x : ${1:X}) {
+	${2:// code...}
+}]]>
+</content>
+	<tabTrigger>autofor</tabTrigger>
+	<scope>source.c++, source.objc++</scope>
+</snippet>

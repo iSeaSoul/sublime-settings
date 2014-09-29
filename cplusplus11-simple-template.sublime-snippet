@@ -9,8 +9,10 @@
 
 using namespace std;
 
+${2:// SELF TEMPLATE}
+
 int main() {
-	${2:// code...}
+	${3:// code...}
 	return 0;
 }]]>
 </content>
