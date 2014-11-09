@@ -13,6 +13,7 @@ ${2:// SELF TEMPLATE}
 
 int main() {
 	ios::sync_with_stdio(false);
+	cout << fixed << setprecision(8);
 
 	${3:// code...}
 	return 0;
