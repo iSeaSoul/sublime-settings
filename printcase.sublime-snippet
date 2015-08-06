@@ -1,6 +1,6 @@
 <snippet>
 	<description>Print Case</description>
-	<content><![CDATA[printf ("Case ${1:#%d}: ${3:%${2:d}\n}", Case++, ${4:x});]]>
+	<content><![CDATA[printf("Case ${1:#%d}: ${3:%${2:d}\n}", Case++, ${4:x});]]>
 </content>
 	<tabTrigger>printcase</tabTrigger>
 	<scope>source.c++, source.objc++</scope>

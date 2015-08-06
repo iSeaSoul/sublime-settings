@@ -2,16 +2,16 @@
 	<description>Self Template</description>
 	<content><![CDATA[// SELF TEMPLATE CODE BGEIN
 
-#define sz(x) ((int)((x).size()))
-#define out(x) cout << #x << ' ' << x << endl;
+#define LOG(level, fmt, arg...) \
+    printf("[" #level "] [%s:%d] " fmt"\n",\
+    __FILE__, __LINE__, ##arg); \
+
+#define SZ(x) ((int)((x).size()))
+#define DEBUG(x) cout << #x << ' ' << x << endl;
+
 #define rep(i,n) for (int i = 0; i < (n); ++i)
 #define repf(i,a,b) for (int i = (a); i <= (b); ++i)
-#define repd(i,a,b) for (int i = (a); i >= (b); --i)
 #define repcase int t, Case = 1; for (cin >> t; t; --t)
-#define repeach(i,x) for (__typeof((x).begin()) i = (x).begin(); i != (x).end(); ++i)
-
-int sgn(double x) { return (x > 1e-8) - (x < -1e-8); }
-int count_bit(int x) { return x == 0? 0 : count_bit(x >> 1) + (x & 1); }
 
 template<class T> inline void to_min(T &a, const T b) { if (b < a) a = b; }
 template<class T> inline void to_max(T &a, const T b) { if (b > a) a = b; }

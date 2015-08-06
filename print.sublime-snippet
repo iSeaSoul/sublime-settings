@@ -1,6 +1,6 @@
 <snippet>
 	<description>Printf</description>
-	<content><![CDATA[printf ("%${1:d}\n", ${2:x});]]>
+	<content><![CDATA[printf("%${1:d}\n", ${2:x});]]>
 </content>
 	<tabTrigger>print</tabTrigger>
 	<scope>source.c++, source.objc++</scope>
